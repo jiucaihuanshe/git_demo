@@ -26,11 +26,11 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context-4.3.xsd"> 
 
-      <bean id="date" class="java.util.Date"/>
+      <bean id="date1" class="java.util.Date"/>
       
-      <!-- Class.forName("helloService").newInstance() -->
+      <!-- Class.forName("helloService").newInstance() 
       <bean id="helloService" 
-            class="bean.HelloService"/>
+            class="bean.HelloService"/>-->
       
       
        
