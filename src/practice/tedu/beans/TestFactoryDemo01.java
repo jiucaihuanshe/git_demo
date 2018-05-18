@@ -14,9 +14,9 @@ class DateUtils{
 public class TestFactoryDemo01 {
 	public static void main(String[] args) {
 		//1.直接创建对象(编译阶段确定)
-		Date date1 = new Date();
+		//Date date1 = new Date();
 		//2.通过静态工厂创建
-		Date date2 = DateUtils.getInstance();
+		//Date date2 = DateUtils.getInstance();
 		
 		//3.通过动态工厂创建对象(根据配置信息与反射创建对象)
 			//3.1.创建工厂对象
