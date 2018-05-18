@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="date1"	class="java.util.Date" />
+	<bean id="date2"	class="java.util.Date" />
+</beans>
