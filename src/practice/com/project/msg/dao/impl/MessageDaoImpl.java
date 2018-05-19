@@ -48,6 +48,15 @@ public class MessageDaoImpl implements MessageDao {
 		//5.释放资源
 		return rows;
 	}
+
+/**
+ * 解决问题思路
+ * when 什么时候出现的问题
+ * what 出现的什么问题
+ * where 哪里出现的这个问题(定位具体行)
+ * why 为什么会出现这个问题
+ * how 如何解决这个问题
+ */
 	
 	public static void main(String[] args) {
 		MessageDao dao = new MessageDaoImpl();

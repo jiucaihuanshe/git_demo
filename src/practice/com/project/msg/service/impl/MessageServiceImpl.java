@@ -7,7 +7,7 @@ import practice.com.project.msg.dao.impl.MessageDaoImpl;
 import practice.com.project.msg.entity.Message;
 import practice.com.project.msg.service.MessageService;
 /** ÒµÎñ²ã */
-//MessageService-->MessageDao-->db
+//MessageController-->MessageService-->MessageDao-->db
 public class MessageServiceImpl implements MessageService {
 
 	private MessageDao messageDao = new MessageDaoImpl();

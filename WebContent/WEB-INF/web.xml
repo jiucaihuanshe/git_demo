@@ -9,4 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+  	<servlet-name>msg</servlet-name>
+  	<servlet-class>practice.com.project.msg.controller.MessageController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>msg</servlet-name>
+  	<url-pattern>/msg</url-pattern>
+  </servlet-mapping>
 </web-app>
